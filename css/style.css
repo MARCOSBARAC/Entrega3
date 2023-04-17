@@ -14,44 +14,26 @@ a {
 }
 
 a:link {
-  color: #;
+  color: #f2c744;
+  text-decoration: none;
 }
 
 a:visited {
   color: #00010d;
 }
 
-a:focus {
-  border-bottom: 1px solid;
-  background: red;
-}
-
 a:hover {
-  border-bottom: 1px solid;
+  text-decoration: underline;
 }
 
 a:active {
-  background: #00010d;
   color: #f2c744;
-}
-
-#lista1 li {
-  display: inline;
-  font-size: 200%;
-  margin-bottom: 100px;
 }
 
 .nombre_empresa {
   color: #00010d;
   text-align: center;
   font-size: 40px;
-  background-color: #f2c744;
-}
-
-.texto_sneakers {
-  font-weight: bold;
-  color: #00010d;
-  text-align: center;
 }
 
 .centrar {
@@ -62,39 +44,21 @@ a:active {
   color: #00010d;
   background-color: #f2c744;
   text-align: center;
+  position: relative;
 }
 
 .foto_sneakers {
   width: 25%;
+  position: relative;
+  left: 400px;
 }
 
 #jordan_travis {
   width: 25%;
   height: 25%;
-}
-
-#descripcionTravis {
-  font-weight: bold;
-  color: #00010d;
-  text-align: center;
-}
-
-#precioYeezy {
-  font-weight: bold;
-  color: #00010d;
-  text-align: center;
-}
-
-#descripcionYeezy {
-  font-weight: bold;
-  color: #00010d;
-  text-align: center;
-}
-
-#precioTravis {
-  font-weight: bold;
-  color: #00010d;
-  text-align: center;
+  position: relative;
+  left: 950px;
+  bottom: 475px;
 }
 
 #ubicacionEnMapa {
