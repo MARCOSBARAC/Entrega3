@@ -45,6 +45,8 @@ a:active {
 
 #piedepagina {
   background-color: #f2c744;
+  bottom: 0px;
+  position: absolute;
 }
 
 .productosIndex {
@@ -82,4 +84,26 @@ button {
   border: none;
   border-radius: 3px;
   background-color: white;
+}
+
+.paresFilaUno {
+  position: absolute;
+  top: 150px;
+}
+
+.paresFilaDos {
+  position: absolute;
+  top: 430px;
+}
+
+.columnaDos {
+  left: 550px;
+}
+
+.columnaTres {
+  right: 0px;
+}
+
+.paginaProductos {
+  top: 600px;
 }
