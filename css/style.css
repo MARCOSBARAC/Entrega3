@@ -45,8 +45,6 @@ a:active {
 
 #piedepagina {
   background-color: #f2c744;
-  bottom: 0px;
-  position: absolute;
 }
 
 .productosIndex {
@@ -106,4 +104,8 @@ button {
 
 .paginaProductos {
   top: 600px;
+}
+
+.paginaFAQ {
+  top: 255px;
 }
