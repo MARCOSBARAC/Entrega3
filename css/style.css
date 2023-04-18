@@ -35,30 +35,8 @@ a:active {
   font-size: 40px;
 }
 
-.centrar {
-  text-align: center;
-}
-
 #piedepagina {
   background-color: #f2c744;
-}
-
-.foto_sneakers {
-  width: 25%;
-  position: relative;
-  left: 400px;
-}
-
-#jordan_travis {
-  width: 25%;
-  height: 25%;
-  position: relative;
-  left: 950px;
-  bottom: 475px;
-}
-
-#ubicacionEnMapa {
-  margin: auto 0px auto 1550px;
 }
 
 .productosIndex {
