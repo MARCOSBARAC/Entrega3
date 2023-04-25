@@ -59,13 +59,15 @@ ul {
   list-style-type: none;
 }
 
-/*CSS PARA PAGINAS SIN BOOTSTRAP*/
+/*CSS PARA PAGINAS NO RESPONSIVE*/
 
 #piedepagina {
   color: #00010d;
   background-color: #f2c744;
   text-align: center;
-  position: relative;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 .centrar {
@@ -100,12 +102,4 @@ button {
 
 .columnaTres {
   right: 0px;
-}
-
-.paginaProductos {
-  top: 600px;
-}
-
-.paginaFAQ {
-  top: 255px;
 }
