@@ -1,0 +1,52 @@
+nav {
+  background-color: #f2c744;
+}
+footer {
+  background-color: #f2c744;
+}
+body {
+  font-family: roboto, sans-serif;
+}
+h1 {
+  a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  :visited {
+    color: #00010d;
+  }
+  :hover {
+    text-decoration: underline;
+  }
+  :active {
+    color: #f2c744;
+  }
+}
+div {
+  a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  :visited {
+    color: #00010d;
+  }
+  :hover {
+    text-decoration: underline;
+  }
+  :active {
+    color: #f2c744;
+  }
+}
+ul {
+  list-style-type: none;
+}
+img:hover {
+  transition: all 0.5s;
+  transform: scale(1.15);
+}
+footer{
+  @if min-height {1200px;}
+  position: fixed;
+}

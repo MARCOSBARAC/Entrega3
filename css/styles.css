@@ -1,0 +1,52 @@
+nav {
+  background-color: #f2c744;
+}
+
+footer {
+  background-color: #f2c744;
+}
+
+body {
+  font-family: roboto, sans-serif;
+}
+
+h1 a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+h1 :visited {
+  color: #00010d;
+}
+h1 :hover {
+  text-decoration: underline;
+}
+h1 :active {
+  color: #f2c744;
+}
+
+div a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+div :visited {
+  color: #00010d;
+}
+div :hover {
+  text-decoration: underline;
+}
+div :active {
+  color: #f2c744;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img:hover {
+  transition: all 0.5s;
+  transform: scale(1.15);
+}
+
+/*# sourceMappingURL=styles.css.map */
