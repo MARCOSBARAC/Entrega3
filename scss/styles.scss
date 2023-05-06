@@ -7,6 +7,15 @@ footer {
 body {
   font-family: roboto, sans-serif;
 }
+ul {
+  li {
+    text-decoration: none;
+    :hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 h1 {
   a {
     outline: none;
@@ -23,33 +32,42 @@ h1 {
     color: #f2c744;
   }
 }
-
-ul {
-  list-style-type: none;
-}
-
 img:hover {
   transition: all 0.5s;
   transform: scale(1.15);
 }
-
 .colorTextoIndex {
   color: #999999;
 }
-
-.cardsIndex {
+div {
   a {
+    color: #00010d;
     outline: none;
     text-decoration: none;
     padding: 2px 1px 0;
+    :visited {
+      color: #00010d;
+    }
+    :hover {
+      text-decoration: underline;
+    }
+    :active {
+      color: #f2c744;
+    }
   }
-  :visited {
+}
+
+footer {
+  a {
+    outline: none;
     color: #00010d;
-  }
-  :hover {
-    text-decoration: underline;
-  }
-  :active {
-    color: #f2c744;
+    :hover {
+      text-decoration: underline;
+      transition: all 0.5s;
+      transform: scale(1.15);
+    }
+    :active {
+      color: #f2c744;
+    }
   }
 }

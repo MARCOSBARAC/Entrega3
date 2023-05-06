@@ -10,6 +10,13 @@ body {
   font-family: roboto, sans-serif;
 }
 
+ul li {
+  text-decoration: none;
+}
+ul li :hover {
+  text-decoration: underline;
+}
+
 h1 a {
   outline: none;
   text-decoration: none;
@@ -25,10 +32,6 @@ h1 :active {
   color: #f2c744;
 }
 
-ul {
-  list-style-type: none;
-}
-
 img:hover {
   transition: all 0.5s;
   transform: scale(1.15);
@@ -38,18 +41,32 @@ img:hover {
   color: #999999;
 }
 
-.cardsIndex a {
+div a {
+  color: #00010d;
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
 }
-.cardsIndex :visited {
+div a :visited {
   color: #00010d;
 }
-.cardsIndex :hover {
+div a :hover {
   text-decoration: underline;
 }
-.cardsIndex :active {
+div a :active {
+  color: #f2c744;
+}
+
+footer a {
+  outline: none;
+  color: #00010d;
+}
+footer a :hover {
+  text-decoration: underline;
+  transition: all 0.5s;
+  transform: scale(1.15);
+}
+footer a :active {
   color: #f2c744;
 }
 
