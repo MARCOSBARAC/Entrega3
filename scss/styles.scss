@@ -23,7 +23,21 @@ h1 {
     color: #f2c744;
   }
 }
-div {
+
+ul {
+  list-style-type: none;
+}
+
+img:hover {
+  transition: all 0.5s;
+  transform: scale(1.15);
+}
+
+.colorTextoIndex {
+  color: #999999;
+}
+
+.cardsIndex {
   a {
     outline: none;
     text-decoration: none;
@@ -38,15 +52,4 @@ div {
   :active {
     color: #f2c744;
   }
-}
-ul {
-  list-style-type: none;
-}
-img:hover {
-  transition: all 0.5s;
-  transform: scale(1.15);
-}
-footer{
-  @if min-height {1200px;}
-  position: fixed;
 }
