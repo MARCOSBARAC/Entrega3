@@ -1,21 +1,15 @@
 nav {
   background-color: #f2c744;
 }
-footer {
-  background-color: #f2c744;
-}
+
 body {
   font-family: roboto, sans-serif;
 }
 ul {
   li {
     text-decoration: none;
-    :hover {
-      text-decoration: underline;
-    }
   }
 }
-
 h1 {
   a {
     outline: none;
@@ -58,6 +52,7 @@ div {
 }
 
 footer {
+  background-color: #f2c744;
   a {
     outline: none;
     color: #00010d;
