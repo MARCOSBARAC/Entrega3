@@ -1,9 +1,5 @@
-nav {
-  background-color: #f2c744;
-}
-
 body {
-  font-family: roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 ul li {
@@ -22,12 +18,12 @@ h1 :hover {
   text-decoration: underline;
 }
 h1 :active {
-  color: #f2c744;
+  color: #c0e5f6;
 }
 
 img:hover {
   transition: all 0.5s;
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 
 .colorTextoIndex {
@@ -47,11 +43,11 @@ div a :hover {
   text-decoration: underline;
 }
 div a :active {
-  color: #f2c744;
+  color: #c0e5f6;
 }
 
 footer {
-  background-color: #f2c744;
+  background-image: linear-gradient(95.2deg, #adfcf3 26.8%, #c0e5f6 64%);
 }
 footer a {
   outline: none;
@@ -63,7 +59,25 @@ footer a :hover {
   transform: scale(1.15);
 }
 footer a :active {
-  color: #f2c744;
+  color: #c0e5f6;
+}
+
+nav {
+  background-image: linear-gradient(95.2deg, #adfcf3 26.8%, #c0e5f6 64%);
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #77a1d3 0%, #79cbca 51%, #77a1d3 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
 }
 
 /*# sourceMappingURL=styles.css.map */
